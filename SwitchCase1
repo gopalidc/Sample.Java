@@ -1,0 +1,27 @@
+//Switch case Example
+package com.mycompany;
+public class SwitchCase1 {
+    public static void main(String[], args)
+    {
+        System.out.println("Enter a,b,c");
+        Scanner sc = new Scanner(System.in);
+        char var = next().CharAt(0);
+        System.out.println(var);
+        switch(var)
+        {
+            case 'a':
+            System.out.println("A for Apple");
+            break;
+            case 'b':
+            System.out.println("B for Apple");
+            break;
+            case 'c':
+            System.out.println("C for Apple");
+            break;
+            default:
+            System.out.println("Wrong Entry");
+
+        }
+
+    }
+}
