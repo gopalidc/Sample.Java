@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Practice{
+    int sum(int a, int b){
+        int d = a+b;
+        System.out.println("sum of two num is :" +d);
+        return(d);
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two num");
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        Practice obj = new Practice();
+        obj.sum(x,y);
+        
+    }
+}
