@@ -1,0 +1,30 @@
+class Employee{
+    int id;
+    String name;
+    void printDetails(){
+    System.out.println("Employee name is :" + name);
+    System.out.println("Employee id is : "+ id);}
+}
+public class Practice{
+    public static void main(String[] args){
+    Employee harry = new Employee();
+    Employee john = new Employee();
+    Employee gopal = new Employee();
+    Employee nishant = new Employee();
+    harry.id = 51;
+    harry.name = "Harry Potter";
+    john.id = 52;
+    john.name = "John Carter";
+    gopal.id = 53;
+    gopal.name = "Gopal Vishvakarma";
+    nishant.id = 54;
+    nishant.name = "Nishant Singh";
+    harry.printDetails();
+    john.printDetails();
+    gopal.printDetails();
+    nishant.printDetails();
+    
+    }
+
+
+}
